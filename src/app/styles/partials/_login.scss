@@ -1,0 +1,14 @@
+@import './theme';
+
+.login{
+    margin-top: 100px;
+    button{
+        background-color: $btn;
+        color: $c2;
+        padding: 8px 11px;
+        border-radius: 6px;
+        border: none;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+        font-size: 1.1rem;
+    }
+}

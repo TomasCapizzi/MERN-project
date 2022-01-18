@@ -1,0 +1,34 @@
+.task{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+
+    .btns{
+        font-size: 1.5rem;
+        display: flex;
+    }
+
+    .task-done{
+        text-decoration: line-through;
+        color: $c2;
+    }
+
+    .btn{
+        position: relative;
+        span{
+            display: none;
+        }
+    }
+    .btn:hover{
+        span{
+            display: flex;
+            position: absolute;
+            font-size: 0.7rem;
+            background-color: $c1;
+            z-index: 10;
+            color: $c2;
+            padding: 2px;
+            border-radius: 3px;
+        }
+    }
+}

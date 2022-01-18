@@ -1,0 +1,28 @@
+@import './theme';
+
+.tasklist-container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .tasklist{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+
+        thead{
+            margin-bottom: 10px;
+            border-bottom: 1px solid $c2;
+        }
+
+        tr{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

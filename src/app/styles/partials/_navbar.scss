@@ -1,0 +1,32 @@
+@import './theme';
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: $c2;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+    padding: 5px 0;
+
+    h1{
+        display: flex;
+        align-items: center;
+    }
+    span{
+        color: $c1;
+    }
+    button{
+        span{
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+        background-color: $btn;
+        padding: 3px 6px;
+        color: $bg;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

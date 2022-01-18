@@ -1,0 +1,27 @@
+@import './theme';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $bg;
+    font-family: 'Poppins', sans-serif;
+    color: $font;
+    min-height: 100vh;
+}
+
+h1{
+    margin: 0;
+}
+
+.app{
+    background-color: $bg;
+
+    .container{
+        display: flex;
+        padding: 20px 0;
+        justify-content: space-around;
+        min-height: 80vh;
+        margin-bottom: 50px;
+    }
+}

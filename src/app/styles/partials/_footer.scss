@@ -1,0 +1,30 @@
+@import './theme';
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: $c1;
+    color: $bg;
+    justify-content: space-around;
+
+    ul{
+        display: flex;
+        padding-left: 0;
+    }
+
+    li{
+        list-style: none;
+        margin: 0 5px;
+        display: flex;
+        align-items: center;
+
+        svg{
+            margin: 5px;
+            color: $c2
+        }
+    }
+
+    .contact{
+        font-size: 1.2rem;
+    }
+}
