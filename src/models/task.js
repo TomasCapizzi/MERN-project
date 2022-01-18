@@ -5,11 +5,18 @@ const {Schema} = mongoose;
 const TaskSchema = new Schema({
     title: {
         type: String,
-        required: true
+        required: true,
     },
     description: {
         type: String,
         required: true,
+    },
+    uid: {
+        type: String,
+        required: true,
+    },
+    isCompleted: {
+        type: Boolean
     }
 });
 
