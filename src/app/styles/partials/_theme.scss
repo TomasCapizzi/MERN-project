@@ -1,0 +1,59 @@
+// Theme style - Color palette
+$font:#565264;
+$bg: #D6CFCB;
+$btn: #A6808C;
+$c1: #706677;
+$c2: #CCB7AE;
+
+//Button css effect
+//Efecto 1
+.effect1{
+    position: relative;
+    overflow: hidden;
+    span{
+        position: relative;
+        z-index: 2;
+        color: $bg;
+    }
+}
+.effect1::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: $c1;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: -100px;
+    transition: 0.2s ease-in-out all;
+}
+
+.effect1:hover::after{
+    top: 0;
+}
+
+//Efecto 2
+.effect2{
+    position: relative;
+    overflow: hidden;
+    span{
+        position: relative;
+        z-index: 2;
+        color: $bg;
+    }
+}
+.effect2::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: $c1;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: -100px;
+    transition: 0.2s ease-in-out all;
+}
+
+.effect2:hover::after{
+    top: 0;
+}
